@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E9FB02C38C1AB27A4400F12 /* Pods_OpenTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B742F1557FB18604DB8D2B30 /* Pods_OpenTalk.framework */; };
+		E104FC5020848008002DB6F2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC4F20848008002DB6F2 /* Profile.swift */; };
+		E104FC522084D22D002DB6F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC512084D22D002DB6F2 /* ProfileViewController.swift */; };
+		E104FC542084E25F002DB6F2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC532084E25F002DB6F2 /* Utils.swift */; };
+		E104FC5620852296002DB6F2 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC5520852296002DB6F2 /* Education.swift */; };
+		E104FC582085275B002DB6F2 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC572085275B002DB6F2 /* Groups.swift */; };
+		E104FC5A2085A8A0002DB6F2 /* UserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC592085A8A0002DB6F2 /* UserActivity.swift */; };
+		E104FC5C2085E7F5002DB6F2 /* CustomHeaderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104FC5B2085E7F5002DB6F2 /* CustomHeaderCellTableViewCell.swift */; };
+		E1409D8420846F4E00ECA396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1409D8320846F4E00ECA396 /* AppDelegate.swift */; };
+		E1409D8620846F4E00ECA396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1409D8520846F4E00ECA396 /* ViewController.swift */; };
+		E1409D8920846F4E00ECA396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1409D8720846F4E00ECA396 /* Main.storyboard */; };
+		E1409D8B20846F5100ECA396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1409D8A20846F5100ECA396 /* Assets.xcassets */; };
+		E1409D8E20846F5100ECA396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1409D8C20846F5100ECA396 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B742F1557FB18604DB8D2B30 /* Pods_OpenTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3694C8B5D59084B3EB7788D /* Pods-OpenTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTalk/Pods-OpenTalk.release.xcconfig"; sourceTree = "<group>"; };
+		DCA612F564744067B931C59E /* Pods-OpenTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTalk/Pods-OpenTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		E104FC4E20847D62002DB6F2 /* OpenTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenTalk.entitlements; sourceTree = "<group>"; };
+		E104FC4F20848008002DB6F2 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E104FC512084D22D002DB6F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E104FC532084E25F002DB6F2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E104FC5520852296002DB6F2 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		E104FC572085275B002DB6F2 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		E104FC592085A8A0002DB6F2 /* UserActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivity.swift; sourceTree = "<group>"; };
+		E104FC5B2085E7F5002DB6F2 /* CustomHeaderCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderCellTableViewCell.swift; sourceTree = "<group>"; };
+		E1409D8020846F4E00ECA396 /* OpenTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1409D8320846F4E00ECA396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1409D8520846F4E00ECA396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1409D8820846F4E00ECA396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1409D8A20846F5100ECA396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1409D8D20846F5100ECA396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1409D8F20846F5100ECA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1409D7D20846F4E00ECA396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FB02C38C1AB27A4400F12 /* Pods_OpenTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4075AF45910B62A1023FE551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCA612F564744067B931C59E /* Pods-OpenTalk.debug.xcconfig */,
+				D3694C8B5D59084B3EB7788D /* Pods-OpenTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCBB1B814543CCE50786455C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B742F1557FB18604DB8D2B30 /* Pods_OpenTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1409D7720846F4E00ECA396 = {
+			isa = PBXGroup;
+			children = (
+				E1409D8220846F4E00ECA396 /* OpenTalk */,
+				E1409D8120846F4E00ECA396 /* Products */,
+				4075AF45910B62A1023FE551 /* Pods */,
+				BCBB1B814543CCE50786455C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1409D8120846F4E00ECA396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1409D8020846F4E00ECA396 /* OpenTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1409D8220846F4E00ECA396 /* OpenTalk */ = {
+			isa = PBXGroup;
+			children = (
+				E104FC4E20847D62002DB6F2 /* OpenTalk.entitlements */,
+				E1409D9620846F7B00ECA396 /* Models */,
+				E1409D9520846F7000ECA396 /* ViewControllers */,
+				E1409D9720846F8900ECA396 /* StoryBoards */,
+				E1409D8320846F4E00ECA396 /* AppDelegate.swift */,
+				E1409D8720846F4E00ECA396 /* Main.storyboard */,
+				E1409D8A20846F5100ECA396 /* Assets.xcassets */,
+				E1409D8C20846F5100ECA396 /* LaunchScreen.storyboard */,
+				E1409D8F20846F5100ECA396 /* Info.plist */,
+			);
+			path = OpenTalk;
+			sourceTree = "<group>";
+		};
+		E1409D9520846F7000ECA396 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1409D8520846F4E00ECA396 /* ViewController.swift */,
+				E104FC512084D22D002DB6F2 /* ProfileViewController.swift */,
+				E104FC532084E25F002DB6F2 /* Utils.swift */,
+				E104FC5B2085E7F5002DB6F2 /* CustomHeaderCellTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1409D9620846F7B00ECA396 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E104FC4F20848008002DB6F2 /* Profile.swift */,
+				E104FC5520852296002DB6F2 /* Education.swift */,
+				E104FC572085275B002DB6F2 /* Groups.swift */,
+				E104FC592085A8A0002DB6F2 /* UserActivity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1409D9720846F8900ECA396 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1409D7F20846F4E00ECA396 /* OpenTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1409D9220846F5100ECA396 /* Build configuration list for PBXNativeTarget "OpenTalk" */;
+			buildPhases = (
+				286C8788D98CF4C998121BC7 /* [CP] Check Pods Manifest.lock */,
+				E1409D7C20846F4E00ECA396 /* Sources */,
+				E1409D7D20846F4E00ECA396 /* Frameworks */,
+				E1409D7E20846F4E00ECA396 /* Resources */,
+				EFC48855100A333A320791F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTalk;
+			productName = OpenTalk;
+			productReference = E1409D8020846F4E00ECA396 /* OpenTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1409D7820846F4E00ECA396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Open Talk";
+				TargetAttributes = {
+					E1409D7F20846F4E00ECA396 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E1409D7B20846F4E00ECA396 /* Build configuration list for PBXProject "OpenTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1409D7720846F4E00ECA396;
+			productRefGroup = E1409D8120846F4E00ECA396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1409D7F20846F4E00ECA396 /* OpenTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1409D7E20846F4E00ECA396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1409D8E20846F5100ECA396 /* LaunchScreen.storyboard in Resources */,
+				E1409D8B20846F5100ECA396 /* Assets.xcassets in Resources */,
+				E1409D8920846F4E00ECA396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		286C8788D98CF4C998121BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC48855100A333A320791F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenTalk/Pods-OpenTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RKPieChart/RKPieChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKPieChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenTalk/Pods-OpenTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1409D7C20846F4E00ECA396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E104FC542084E25F002DB6F2 /* Utils.swift in Sources */,
+				E104FC5A2085A8A0002DB6F2 /* UserActivity.swift in Sources */,
+				E1409D8620846F4E00ECA396 /* ViewController.swift in Sources */,
+				E104FC5620852296002DB6F2 /* Education.swift in Sources */,
+				E104FC5C2085E7F5002DB6F2 /* CustomHeaderCellTableViewCell.swift in Sources */,
+				E104FC5020848008002DB6F2 /* Profile.swift in Sources */,
+				E104FC522084D22D002DB6F2 /* ProfileViewController.swift in Sources */,
+				E1409D8420846F4E00ECA396 /* AppDelegate.swift in Sources */,
+				E104FC582085275B002DB6F2 /* Groups.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1409D8720846F4E00ECA396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1409D8820846F4E00ECA396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1409D8C20846F5100ECA396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1409D8D20846F5100ECA396 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1409D9020846F5100ECA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1409D9120846F5100ECA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1409D9320846F5100ECA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA612F564744067B931C59E /* Pods-OpenTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenTalk/OpenTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDAVZ63Z2Q;
+				INFOPLIST_FILE = OpenTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OpenTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1409D9420846F5100ECA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3694C8B5D59084B3EB7788D /* Pods-OpenTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenTalk/OpenTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDAVZ63Z2Q;
+				INFOPLIST_FILE = OpenTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OpenTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1409D7B20846F4E00ECA396 /* Build configuration list for PBXProject "OpenTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1409D9020846F5100ECA396 /* Debug */,
+				E1409D9120846F5100ECA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1409D9220846F5100ECA396 /* Build configuration list for PBXNativeTarget "OpenTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1409D9320846F5100ECA396 /* Debug */,
+				E1409D9420846F5100ECA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1409D7820846F4E00ECA396 /* Project object */;
+}
